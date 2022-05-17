@@ -1,0 +1,177 @@
+/* colors
+teal - #2A9D8F
+yellow - #E9C46A
+light orange - #F4A261
+dark orange - #E76F51*/
+
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap');
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+}
+
+.hero {
+  display: grid;
+  place-items: center center;
+  min-height: 100vh;
+  background-color: #F4A261;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
+.centertop{
+  display: flex;
+  flex-direction: column;
+  margin: 14vw;
+  width: 70%;
+  /* border: solid 2px red; */
+}
+
+.centertop img{
+  width: 50%;
+  height: auto;
+}
+
+.center-info {
+  display: flex;
+}
+
+h1{
+  font-size: 90px;
+  color: #FFFFFF;
+  /* outline-color: #E76F51;
+  -webkit-text-stroke: 2px black; */
+}
+
+.button {
+  align-self: center;
+  width: 22%;
+  min-height: 30px:
+  justify-content: center;
+  background-color: #2A9D8F;
+}
+
+.button a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.buildgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 100vh;
+}
+
+.topingscolum {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  background-color: #E9C46A
+}
+
+.toprow {
+  display: flex;
+  background-color: #F4A261
+}
+
+h2 {
+  font-size: 35px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.bottomrow {
+  display: flex;
+  min-width: 69vw;
+  min-height: 85px;
+  align-self: flex-end;
+  background-color: #F4A261
+}
+
+.bottomrow a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 30px;
+  align-self: center;
+  margin-left: 710px;
+}
+
+.finish {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  align-items: center;
+  background-color: #F4A261;
+}
+
+.finish img {
+  width: 50%;
+  height: auto;
+}
+
+h4 {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.finish a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 60px;
+}
+
+.ingredients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  grid-gap: 20px;
+  padding: 1px;
+  place-items: center center;
+}
+
+.ingredients img {
+  width: 70%;
+  height: auto;
+}
+
+.workstation {
+  display: flex;
+  min-width: 68vw;
+  min-height: 105vh;
+  position: relative;
+}
+
+.workstation img {
+  /* absolute position in middle of div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.pan {
+  display: flex;
+  justify-content: center;
+}
+
+.pan img {
+  max-height: 100vh;
+  max-width: 100vw;
+}

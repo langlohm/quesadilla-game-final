@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>build</title>
+    <link rel="stylesheet" href="./assets/main.css">
+  </head>
+  <body>
+    <div class="buildgrid">
+      <div class="topingscolum">
+        <div class="toprow">
+          <h2>drag your toppings</h2>
+        </div>
+        <div class="ingredients">
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/flour.png"
+            alt="flour"
+            id="flour"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 1"
+            />
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/chedar.png"
+            alt="chedar"
+            id="chedar"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 2"
+            />
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/chicken (1).png"
+            alt="chicken"
+            id="chicken"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 3"
+            />
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/veggies.png"
+            alt="veggies"
+            id="veggies"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 4"
+            />
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/avacado (1).png"
+            alt="avacado (1)"
+            id="avacado (1)"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 5"
+            />
+          <img
+            class="ingredients"
+            draggable="true"
+            src="./assets/takis (1).png"
+            alt="takis (1)"
+            id="takis (1)"
+            ondragstart="drag(event)"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            style="z-index: 6"
+            />
+        </div>
+      </div>
+      <div class="right">
+        <div
+          class="workstation"
+          id="workstation"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+        >
+        <div class="pan">
+          <img src="./assets/chicken (2).png" alt="pan">
+        </div>
+        </div>
+        <div class="bottomrow">
+          <a href="./cook.html">cook</a>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
